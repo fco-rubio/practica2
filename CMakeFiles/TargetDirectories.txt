@@ -1,0 +1,9 @@
+/home/fco-rubio/Uni/2/IA/practica2/CMakeFiles/obj3DLib.dir
+/home/fco-rubio/Uni/2/IA/practica2/CMakeFiles/GLUILib.dir
+/home/fco-rubio/Uni/2/IA/practica2/CMakeFiles/modelosBelkanLib.dir
+/home/fco-rubio/Uni/2/IA/practica2/CMakeFiles/comportamientosLib.dir
+/home/fco-rubio/Uni/2/IA/practica2/CMakeFiles/motorLib.dir
+/home/fco-rubio/Uni/2/IA/practica2/CMakeFiles/practica2.dir
+/home/fco-rubio/Uni/2/IA/practica2/CMakeFiles/practica2SG.dir
+/home/fco-rubio/Uni/2/IA/practica2/CMakeFiles/edit_cache.dir
+/home/fco-rubio/Uni/2/IA/practica2/CMakeFiles/rebuild_cache.dir

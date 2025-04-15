@@ -1,5 +1,5 @@
 #ifndef COMPORTAMIENTORESCATADOR_H
-#define COMPORTAMIENTORESCATADOR_H
+#define COMPORTAMIENTORESCATADOR_H 
 
 #include <chrono>
 #include <time.h>
@@ -14,6 +14,9 @@ public:
   ComportamientoRescatador(unsigned int size = 0) : Comportamiento(size)
   {
     // Inicializar Variables de Estado Niveles 0,1,4
+    last_action = IDLE;
+    tiene_zapatillas = false;
+    giro45Izq = 0;
   }
   ComportamientoRescatador(std::vector<std::vector<unsigned char>> mapaR, std::vector<std::vector<unsigned char>> mapaC) : Comportamiento(mapaR,mapaC)
   {
@@ -34,6 +37,10 @@ public:
 
 private:
   // Variables de Estado
+  Action last_action;     //Almacena la ultima accion realizada por el agente
+  bool tiene_zapatillas;  //Indica si ya pasó por una casilla de tipo zapatillas
+  int giro45Izq;          //Indica si está haciendo un TURN_SL. (0 indica que no)
+
 };
 
 #endif
