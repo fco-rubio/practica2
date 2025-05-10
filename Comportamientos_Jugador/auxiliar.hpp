@@ -35,13 +35,14 @@ public:
   Action ComportamientoAuxiliarNivel_3(Sensores sensores);
   Action ComportamientoAuxiliarNivel_4(Sensores sensores);
   void rellenaMatrizCasillasVisitadas(Sensores sensores);
-  int VeoCasillaInteresante (char i, char c, char d, bool zap, Sensores sensores);
+  int VeoCasillaInteresanteNivel0 (char i, char c, char d, bool zap, Sensores sensores);
+  int VeoCasillaInteresanteNivel1 (char i, char c, char d, bool zap, Sensores sensores);
 private:
   // Definir Variables de Estado
   Action last_action;
   bool tiene_zapatillas;
   int giro45Izq,fil=100,col=100;
-  vector<vector<bool>> casillasVisitadas = vector<vector<bool>>(100, vector<bool>(100,0));
+  vector<vector<int>> casillasVisitadas = vector<vector<int>>(100, vector<int>(100,0));
 };
 
 #endif
