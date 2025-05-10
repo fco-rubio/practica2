@@ -35,12 +35,14 @@ public:
   Action ComportamientoRescatadorNivel_3(Sensores sensores);
   Action ComportamientoRescatadorNivel_4(Sensores sensores);
 
+  void rellenaMatrizCasillasVisitadas(Sensores sensores);
+  int VeoCasillaInteresante (char i, char c, char d, bool zap, Sensores sensores);
 private:
   // Variables de Estado
   Action last_action;     //Almacena la ultima accion realizada por el agente
   bool tiene_zapatillas;  //Indica si ya pasó por una casilla de tipo zapatillas
   int giro45Izq;          //Indica si está haciendo un TURN_SL. (0 indica que no)
-
+  vector<vector<bool>> casillasVisitadas = vector<vector<bool>>(100, vector<bool>(100,0));
 };
 
 #endif

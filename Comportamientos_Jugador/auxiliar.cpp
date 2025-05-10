@@ -33,7 +33,7 @@ int ComportamientoAuxiliar::interact(Action accion, int valor)
 	return 0;
 }
 
-int VeoCasillaInteresanteA(char i, char c, char d, bool zap, Sensores sensores){
+int ComportamientoAuxiliar::VeoCasillaInteresante (char i, char c, char d, bool zap, Sensores sensores) {
 	if (c == 'X' && sensores.agentes[2]=='_') return 2;
 	else if (i == 'X'  && sensores.agentes[1]=='_') return 1;
 	else if (d == 'X'  && sensores.agentes[3]=='_') return 3;
@@ -43,11 +43,80 @@ int VeoCasillaInteresanteA(char i, char c, char d, bool zap, Sensores sensores){
 		else if (d == 'D'  && sensores.agentes[3]=='_') return 3;
 		
 	}
-	if (c == 'C'&& sensores.agentes[5]=='_' && sensores.agentes[2]=='_') return 2;
+	switch(sensores.rumbo) {
+		case norte:
+			if (c == 'C' && sensores.agentes[2]=='_' && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF-1][sensores.posC]) return 2;
+			else if (i == 'C' && sensores.agentes[1]=='_' && !casillasVisitadas[sensores.posF-1][sensores.posC-1]) return 1;
+			else if (d == 'C' && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF-1][sensores.posC+1]) return 3;
+			else if (c == 'D' && sensores.agentes[2]=='_' && !casillasVisitadas[sensores.posF-1][sensores.posC]) return 2;
+			else if (i == 'D' && sensores.agentes[1]=='_' && !casillasVisitadas[sensores.posF-1][sensores.posC-1]) return 1;
+			else if (d == 'D'  && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF-1][sensores.posC+1]) return 3;
+			break;
+		case sur:
+			if (c == 'C' && sensores.agentes[2]=='_' && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF+1][sensores.posC]) return 2;
+			else if (i == 'C' && sensores.agentes[1]=='_' && !casillasVisitadas[sensores.posF+1][sensores.posC+1]) return 1;
+			else if (d == 'C' && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF+1][sensores.posC-1]) return 3;
+			else if (c == 'D' && sensores.agentes[2]=='_' && !casillasVisitadas[sensores.posF+1][sensores.posC]) return 2;
+			else if (i == 'D' && sensores.agentes[1]=='_' && !casillasVisitadas[sensores.posF+1][sensores.posC+1]) return 1;
+			else if (d == 'D'  && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF+1][sensores.posC-1]) return 3;
+			break;
+		case este:
+			if (c == 'C' && sensores.agentes[2]=='_' && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF][sensores.posC+1]) return 2;
+			else if (i == 'C' && sensores.agentes[1]=='_' && !casillasVisitadas[sensores.posF-1][sensores.posC+1]) return 1;
+			else if (d == 'C' && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF+1][sensores.posC+1]) return 3;
+			else if (c == 'D' && sensores.agentes[2]=='_' && !casillasVisitadas[sensores.posF][sensores.posC+1]) return 2;
+			else if (i == 'D' && sensores.agentes[1]=='_' && !casillasVisitadas[sensores.posF-1][sensores.posC+1]) return 1;
+			else if (d == 'D'  && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF+1][sensores.posC+1]) return 3;
+			break;
+		case oeste:
+			if (c == 'C' && sensores.agentes[2]=='_' && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF][sensores.posC-1]) return 2;
+			else if (i == 'C' && sensores.agentes[1]=='_' && !casillasVisitadas[sensores.posF+1][sensores.posC-1]) return 1;
+			else if (d == 'C' && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF-1][sensores.posC-1]) return 3;
+			else if (c == 'D' && sensores.agentes[2]=='_' && !casillasVisitadas[sensores.posF][sensores.posC-1]) return 2;
+			else if (i == 'D' && sensores.agentes[1]=='_' && !casillasVisitadas[sensores.posF+1][sensores.posC-1]) return 1;
+			else if (d == 'D'  && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF-1][sensores.posC-1]) return 3;
+			break;
+		case noreste:
+			if (c == 'C' && sensores.agentes[2]=='_' && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF-1][sensores.posC+1]) return 2;
+			else if (i == 'C' && sensores.agentes[1]=='_' && !casillasVisitadas[sensores.posF-1][sensores.posC]) return 1;
+			else if (d == 'C' && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF][sensores.posC+1]) return 3;
+			else if (c == 'D' && sensores.agentes[2]=='_' && !casillasVisitadas[sensores.posF-1][sensores.posC+1]) return 2;
+			else if (i == 'D' && sensores.agentes[1]=='_' && !casillasVisitadas[sensores.posF-1][sensores.posC]) return 1;
+			else if (d == 'D'  && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF][sensores.posC+1]) return 3;
+			break;
+		case noroeste:
+			if (c == 'C' && sensores.agentes[2]=='_' && sensores.agentes[5]=='_' && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF-1][sensores.posC-1]) return 2;
+			else if (i == 'C' && sensores.agentes[1]=='_' && !casillasVisitadas[sensores.posF][sensores.posC-1]) return 1;
+			else if (d == 'C' && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF-1][sensores.posC]) return 3;
+			else if (c == 'D' && sensores.agentes[2]=='_' && !casillasVisitadas[sensores.posF-1][sensores.posC-1]) return 2;
+			else if (i == 'D' && sensores.agentes[1]=='_' && !casillasVisitadas[sensores.posF][sensores.posC-1]) return 1;
+			else if (d == 'D'  && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF-1][sensores.posC]) return 3;
+			break;
+		case sureste:
+			if (c == 'C' && sensores.agentes[2]=='_' && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF+1][sensores.posC+1]) return 2;
+			else if (i == 'C' && sensores.agentes[1]=='_' && !casillasVisitadas[sensores.posF][sensores.posC+1]) return 1;
+			else if (d == 'C' && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF+1][sensores.posC]) return 3;
+			else if (c == 'D' && sensores.agentes[2]=='_' && !casillasVisitadas[sensores.posF+1][sensores.posC+1]) return 2;
+			else if (i == 'D' && sensores.agentes[1]=='_' && !casillasVisitadas[sensores.posF][sensores.posC+1]) return 1;
+			else if (d == 'D'  && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF+1][sensores.posC]) return 3;
+			break;
+		case suroeste:
+			if (c == 'C' && sensores.agentes[2]=='_' && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF+1][sensores.posC-1]) return 2;
+			else if (i == 'C' && sensores.agentes[1]=='_' && !casillasVisitadas[sensores.posF+1][sensores.posC]) return 1;
+			else if (d == 'C' && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF][sensores.posC-1]) return 3;
+			else if (c == 'D' && sensores.agentes[2]=='_' && !casillasVisitadas[sensores.posF+1][sensores.posC-1]) return 2;
+			else if (i == 'D' && sensores.agentes[1]=='_' && !casillasVisitadas[sensores.posF+1][sensores.posC]) return 1;
+			else if (d == 'D'  && sensores.agentes[3]=='_' && !casillasVisitadas[sensores.posF][sensores.posC-1]) return 3;
+			break;
+	}
+	if (c == 'C' && sensores.agentes[2]=='_' && sensores.agentes[3]=='_' && sensores.agentes[5]=='_') return 2;
 	else if (i == 'C' && sensores.agentes[1]=='_') return 1;
 	else if (d == 'C' && sensores.agentes[3]=='_') return 3;
-	
+	else if (c == 'D' && sensores.agentes[2]=='_') return 2;
+	else if (i == 'D' && sensores.agentes[1]=='_' ) return 1;
+	else if (d == 'D'  && sensores.agentes[3]=='_') return 3;
 	else return 0;
+	
 }
 
 
@@ -265,10 +334,16 @@ void SituarSensorEnMapaA(vector<vector<unsigned char>> &m, vector<vector<unsigne
 	}
 	
 }
+
+void ComportamientoAuxiliar::rellenaMatrizCasillasVisitadas(Sensores sensores) {
+	casillasVisitadas[sensores.posF][sensores.posC] = 1;
+}
+
 Action ComportamientoAuxiliar::ComportamientoAuxiliarNivel_0(Sensores sensores)
 {
 	Action accion;
 	SituarSensorEnMapaA(mapaResultado,mapaCotas,sensores);
+	rellenaMatrizCasillasVisitadas(sensores);
 	if (sensores.superficie[0] == 'D') tiene_zapatillas = true;
 	if (sensores.superficie[0] == 'X') {		//LLegué al objetivo
 		accion = IDLE;
@@ -281,7 +356,7 @@ Action ComportamientoAuxiliar::ComportamientoAuxiliarNivel_0(Sensores sensores)
 		char i = ViablePorAlturaA(sensores.superficie[1], sensores.cota[1] - sensores.cota[0]);
 		char c = ViablePorAlturaA(sensores.superficie[2], sensores.cota[2] - sensores.cota[0]);
 		char d = ViablePorAlturaA(sensores.superficie[3], sensores.cota[3] - sensores.cota[0]);
-		int pos = VeoCasillaInteresanteA(i, c, d, tiene_zapatillas, sensores);
+		int pos = VeoCasillaInteresante(i, c, d, tiene_zapatillas, sensores);
 		switch (pos)
 		{
 		case 2:
@@ -310,6 +385,7 @@ Action ComportamientoAuxiliar::ComportamientoAuxiliarNivel_1(Sensores sensores)
 {
 	Action accion;
 	SituarSensorEnMapaA(mapaResultado,mapaCotas,sensores);
+	rellenaMatrizCasillasVisitadas(sensores);
 	if (sensores.superficie[0] == 'D') tiene_zapatillas = true;
 	if (sensores.superficie[0] == 'X') {		//LLegué al objetivo
 		accion = IDLE;
@@ -322,7 +398,7 @@ Action ComportamientoAuxiliar::ComportamientoAuxiliarNivel_1(Sensores sensores)
 		char i = ViablePorAlturaA(sensores.superficie[1], sensores.cota[1] - sensores.cota[0]);
 		char c = ViablePorAlturaA(sensores.superficie[2], sensores.cota[2] - sensores.cota[0]);
 		char d = ViablePorAlturaA(sensores.superficie[3], sensores.cota[3] - sensores.cota[0]);
-		int pos = VeoCasillaInteresanteA(i, c, d, tiene_zapatillas, sensores);
+		int pos = VeoCasillaInteresante(i, c, d, tiene_zapatillas, sensores);
 		switch (pos)
 		{
 		case 2:

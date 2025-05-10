@@ -4,7 +4,7 @@
 #include <chrono>
 #include <time.h>
 #include <thread>
-
+#include <vector>
 #include "comportamientos/comportamiento.hpp"
 
 class ComportamientoAuxiliar : public Comportamiento
@@ -34,12 +34,14 @@ public:
   Action ComportamientoAuxiliarNivel_2(Sensores sensores);
   Action ComportamientoAuxiliarNivel_3(Sensores sensores);
   Action ComportamientoAuxiliarNivel_4(Sensores sensores);
-
+  void rellenaMatrizCasillasVisitadas(Sensores sensores);
+  int VeoCasillaInteresante (char i, char c, char d, bool zap, Sensores sensores);
 private:
   // Definir Variables de Estado
   Action last_action;
   bool tiene_zapatillas;
-  int giro45Izq;
+  int giro45Izq,fil=100,col=100;
+  vector<vector<bool>> casillasVisitadas = vector<vector<bool>>(100, vector<bool>(100,0));
 };
 
 #endif

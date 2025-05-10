@@ -90,7 +90,6 @@ CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/auxiliar.cpp.o: \
  /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
- /home/fco-rubio/Uni/2/IA/practica2/include/comportamientos/comportamiento.hpp \
  /usr/include/c++/13/vector /usr/include/c++/13/bits/stl_algobase.h \
  /usr/include/c++/13/bits/functexcept.h \
  /usr/include/c++/13/bits/exception_defines.h \
@@ -115,6 +114,7 @@ CMakeFiles/comportamientosLib.dir/Comportamientos_Jugador/auxiliar.cpp.o: \
  /usr/include/c++/13/bits/vector.tcc \
  /usr/include/c++/13/bits/memory_resource.h /usr/include/c++/13/cstddef \
  /usr/include/c++/13/bits/uses_allocator_args.h \
+ /home/fco-rubio/Uni/2/IA/practica2/include/comportamientos/comportamiento.hpp \
  /usr/include/c++/13/iostream /usr/include/c++/13/ostream \
  /usr/include/c++/13/ios /usr/include/c++/13/exception \
  /usr/include/c++/13/bits/exception_ptr.h \
