@@ -34,6 +34,7 @@ CMakeFiles/motorLib.dir/src/motorlib/entidad.cpp.o: src/motorlib/entidad.cpp \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \
   /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/bit \
   /usr/include/c++/13/bits/alloc_traits.h \
   /usr/include/c++/13/bits/allocator.h \
   /usr/include/c++/13/bits/basic_ios.h \
@@ -61,6 +62,7 @@ CMakeFiles/motorLib.dir/src/motorlib/entidad.cpp.o: src/motorlib/entidad.cpp \
   /usr/include/c++/13/bits/locale_facets.h \
   /usr/include/c++/13/bits/locale_facets.tcc \
   /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/memory_resource.h \
   /usr/include/c++/13/bits/memoryfwd.h \
   /usr/include/c++/13/bits/move.h \
   /usr/include/c++/13/bits/nested_exception.h \
@@ -74,6 +76,7 @@ CMakeFiles/motorLib.dir/src/motorlib/entidad.cpp.o: src/motorlib/entidad.cpp \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/specfun.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/std_thread.h \
   /usr/include/c++/13/bits/stl_algobase.h \
@@ -88,10 +91,12 @@ CMakeFiles/motorLib.dir/src/motorlib/entidad.cpp.o: src/motorlib/entidad.cpp \
   /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
+  /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
   /usr/include/c++/13/bits/this_thread_sleep.h \
   /usr/include/c++/13/bits/unique_ptr.h \
   /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
   /usr/include/c++/13/cctype \
@@ -99,6 +104,7 @@ CMakeFiles/motorLib.dir/src/motorlib/entidad.cpp.o: src/motorlib/entidad.cpp \
   /usr/include/c++/13/chrono \
   /usr/include/c++/13/clocale \
   /usr/include/c++/13/cmath \
+  /usr/include/c++/13/cstddef \
   /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
@@ -122,13 +128,27 @@ CMakeFiles/motorLib.dir/src/motorlib/entidad.cpp.o: src/motorlib/entidad.cpp \
   /usr/include/c++/13/math.h \
   /usr/include/c++/13/new \
   /usr/include/c++/13/ostream \
+  /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/ratio \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
   /usr/include/c++/13/system_error \
   /usr/include/c++/13/thread \
+  /usr/include/c++/13/tr1/bessel_function.tcc \
+  /usr/include/c++/13/tr1/beta_function.tcc \
+  /usr/include/c++/13/tr1/ell_integral.tcc \
+  /usr/include/c++/13/tr1/exp_integral.tcc \
+  /usr/include/c++/13/tr1/gamma.tcc \
+  /usr/include/c++/13/tr1/hypergeometric.tcc \
+  /usr/include/c++/13/tr1/legendre_function.tcc \
+  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/13/tr1/poly_hermite.tcc \
+  /usr/include/c++/13/tr1/poly_laguerre.tcc \
+  /usr/include/c++/13/tr1/riemann_zeta.tcc \
+  /usr/include/c++/13/tr1/special_function_util.h \
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
@@ -177,13 +197,22 @@ CMakeFiles/motorLib.dir/src/motorlib/entidad.cpp.o: src/motorlib/entidad.cpp \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -221,6 +250,8 @@ CMakeFiles/motorLib.dir/src/motorlib/entidad.cpp.o: src/motorlib/entidad.cpp \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
@@ -299,6 +330,7 @@ CMakeFiles/motorLib.dir/src/motorlib/mapa.cpp.o: src/motorlib/mapa.cpp \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \
   /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/bit \
   /usr/include/c++/13/bits/alloc_traits.h \
   /usr/include/c++/13/bits/allocator.h \
   /usr/include/c++/13/bits/basic_ios.h \
@@ -326,6 +358,7 @@ CMakeFiles/motorLib.dir/src/motorlib/mapa.cpp.o: src/motorlib/mapa.cpp \
   /usr/include/c++/13/bits/locale_facets.h \
   /usr/include/c++/13/bits/locale_facets.tcc \
   /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/memory_resource.h \
   /usr/include/c++/13/bits/memoryfwd.h \
   /usr/include/c++/13/bits/move.h \
   /usr/include/c++/13/bits/nested_exception.h \
@@ -339,6 +372,7 @@ CMakeFiles/motorLib.dir/src/motorlib/mapa.cpp.o: src/motorlib/mapa.cpp \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/specfun.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/std_thread.h \
   /usr/include/c++/13/bits/stl_algobase.h \
@@ -353,10 +387,12 @@ CMakeFiles/motorLib.dir/src/motorlib/mapa.cpp.o: src/motorlib/mapa.cpp \
   /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
+  /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
   /usr/include/c++/13/bits/this_thread_sleep.h \
   /usr/include/c++/13/bits/unique_ptr.h \
   /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
   /usr/include/c++/13/cctype \
@@ -364,6 +400,7 @@ CMakeFiles/motorLib.dir/src/motorlib/mapa.cpp.o: src/motorlib/mapa.cpp \
   /usr/include/c++/13/chrono \
   /usr/include/c++/13/clocale \
   /usr/include/c++/13/cmath \
+  /usr/include/c++/13/cstddef \
   /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
@@ -387,13 +424,27 @@ CMakeFiles/motorLib.dir/src/motorlib/mapa.cpp.o: src/motorlib/mapa.cpp \
   /usr/include/c++/13/math.h \
   /usr/include/c++/13/new \
   /usr/include/c++/13/ostream \
+  /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/ratio \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
   /usr/include/c++/13/system_error \
   /usr/include/c++/13/thread \
+  /usr/include/c++/13/tr1/bessel_function.tcc \
+  /usr/include/c++/13/tr1/beta_function.tcc \
+  /usr/include/c++/13/tr1/ell_integral.tcc \
+  /usr/include/c++/13/tr1/exp_integral.tcc \
+  /usr/include/c++/13/tr1/gamma.tcc \
+  /usr/include/c++/13/tr1/hypergeometric.tcc \
+  /usr/include/c++/13/tr1/legendre_function.tcc \
+  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/13/tr1/poly_hermite.tcc \
+  /usr/include/c++/13/tr1/poly_laguerre.tcc \
+  /usr/include/c++/13/tr1/riemann_zeta.tcc \
+  /usr/include/c++/13/tr1/special_function_util.h \
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
@@ -442,13 +493,22 @@ CMakeFiles/motorLib.dir/src/motorlib/mapa.cpp.o: src/motorlib/mapa.cpp \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -486,6 +546,8 @@ CMakeFiles/motorLib.dir/src/motorlib/mapa.cpp.o: src/motorlib/mapa.cpp \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
@@ -566,6 +628,7 @@ CMakeFiles/motorLib.dir/src/motorlib/monitor.cpp.o: src/motorlib/monitor.cpp \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \
   /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/bit \
   /usr/include/c++/13/bits/alloc_traits.h \
   /usr/include/c++/13/bits/allocated_ptr.h \
   /usr/include/c++/13/bits/allocator.h \
@@ -600,6 +663,7 @@ CMakeFiles/motorLib.dir/src/motorlib/monitor.cpp.o: src/motorlib/monitor.cpp \
   /usr/include/c++/13/bits/locale_facets_nonio.h \
   /usr/include/c++/13/bits/locale_facets_nonio.tcc \
   /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/memory_resource.h \
   /usr/include/c++/13/bits/memoryfwd.h \
   /usr/include/c++/13/bits/move.h \
   /usr/include/c++/13/bits/nested_exception.h \
@@ -610,9 +674,11 @@ CMakeFiles/motorLib.dir/src/motorlib/monitor.cpp.o: src/motorlib/monitor.cpp \
   /usr/include/c++/13/bits/postypes.h \
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
+  /usr/include/c++/13/bits/quoted_string.h \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/specfun.h \
   /usr/include/c++/13/bits/sstream.tcc \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/std_thread.h \
@@ -629,10 +695,12 @@ CMakeFiles/motorLib.dir/src/motorlib/monitor.cpp.o: src/motorlib/monitor.cpp \
   /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
+  /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
   /usr/include/c++/13/bits/this_thread_sleep.h \
   /usr/include/c++/13/bits/unique_ptr.h \
   /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
   /usr/include/c++/13/cctype \
@@ -640,6 +708,7 @@ CMakeFiles/motorLib.dir/src/motorlib/monitor.cpp.o: src/motorlib/monitor.cpp \
   /usr/include/c++/13/chrono \
   /usr/include/c++/13/clocale \
   /usr/include/c++/13/cmath \
+  /usr/include/c++/13/cstddef \
   /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
@@ -669,14 +738,28 @@ CMakeFiles/motorLib.dir/src/motorlib/monitor.cpp.o: src/motorlib/monitor.cpp \
   /usr/include/c++/13/math.h \
   /usr/include/c++/13/new \
   /usr/include/c++/13/ostream \
+  /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/ratio \
   /usr/include/c++/13/sstream \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
   /usr/include/c++/13/system_error \
   /usr/include/c++/13/thread \
+  /usr/include/c++/13/tr1/bessel_function.tcc \
+  /usr/include/c++/13/tr1/beta_function.tcc \
+  /usr/include/c++/13/tr1/ell_integral.tcc \
+  /usr/include/c++/13/tr1/exp_integral.tcc \
+  /usr/include/c++/13/tr1/gamma.tcc \
+  /usr/include/c++/13/tr1/hypergeometric.tcc \
+  /usr/include/c++/13/tr1/legendre_function.tcc \
+  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/13/tr1/poly_hermite.tcc \
+  /usr/include/c++/13/tr1/poly_laguerre.tcc \
+  /usr/include/c++/13/tr1/riemann_zeta.tcc \
+  /usr/include/c++/13/tr1/special_function_util.h \
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
@@ -726,13 +809,22 @@ CMakeFiles/motorLib.dir/src/motorlib/monitor.cpp.o: src/motorlib/monitor.cpp \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -770,6 +862,8 @@ CMakeFiles/motorLib.dir/src/motorlib/monitor.cpp.o: src/motorlib/monitor.cpp \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
@@ -855,6 +949,7 @@ CMakeFiles/motorLib.dir/src/motorlib/motor_grafico.cpp.o: src/motorlib/motor_gra
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \
   /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/bit \
   /usr/include/c++/13/bits/alloc_traits.h \
   /usr/include/c++/13/bits/allocated_ptr.h \
   /usr/include/c++/13/bits/allocator.h \
@@ -884,6 +979,7 @@ CMakeFiles/motorLib.dir/src/motorlib/motor_grafico.cpp.o: src/motorlib/motor_gra
   /usr/include/c++/13/bits/locale_facets.h \
   /usr/include/c++/13/bits/locale_facets.tcc \
   /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/memory_resource.h \
   /usr/include/c++/13/bits/memoryfwd.h \
   /usr/include/c++/13/bits/move.h \
   /usr/include/c++/13/bits/nested_exception.h \
@@ -897,6 +993,7 @@ CMakeFiles/motorLib.dir/src/motorlib/motor_grafico.cpp.o: src/motorlib/motor_gra
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/specfun.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/std_thread.h \
   /usr/include/c++/13/bits/stl_algobase.h \
@@ -912,10 +1009,12 @@ CMakeFiles/motorLib.dir/src/motorlib/motor_grafico.cpp.o: src/motorlib/motor_gra
   /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
+  /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
   /usr/include/c++/13/bits/this_thread_sleep.h \
   /usr/include/c++/13/bits/unique_ptr.h \
   /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
   /usr/include/c++/13/cctype \
@@ -923,6 +1022,7 @@ CMakeFiles/motorLib.dir/src/motorlib/motor_grafico.cpp.o: src/motorlib/motor_gra
   /usr/include/c++/13/chrono \
   /usr/include/c++/13/clocale \
   /usr/include/c++/13/cmath \
+  /usr/include/c++/13/cstddef \
   /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
@@ -949,13 +1049,27 @@ CMakeFiles/motorLib.dir/src/motorlib/motor_grafico.cpp.o: src/motorlib/motor_gra
   /usr/include/c++/13/math.h \
   /usr/include/c++/13/new \
   /usr/include/c++/13/ostream \
+  /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/ratio \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
   /usr/include/c++/13/system_error \
   /usr/include/c++/13/thread \
+  /usr/include/c++/13/tr1/bessel_function.tcc \
+  /usr/include/c++/13/tr1/beta_function.tcc \
+  /usr/include/c++/13/tr1/ell_integral.tcc \
+  /usr/include/c++/13/tr1/exp_integral.tcc \
+  /usr/include/c++/13/tr1/gamma.tcc \
+  /usr/include/c++/13/tr1/hypergeometric.tcc \
+  /usr/include/c++/13/tr1/legendre_function.tcc \
+  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/13/tr1/poly_hermite.tcc \
+  /usr/include/c++/13/tr1/poly_laguerre.tcc \
+  /usr/include/c++/13/tr1/riemann_zeta.tcc \
+  /usr/include/c++/13/tr1/special_function_util.h \
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
@@ -1010,13 +1124,22 @@ CMakeFiles/motorLib.dir/src/motorlib/motor_grafico.cpp.o: src/motorlib/motor_gra
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -1054,6 +1177,8 @@ CMakeFiles/motorLib.dir/src/motorlib/motor_grafico.cpp.o: src/motorlib/motor_gra
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
@@ -1135,6 +1260,7 @@ CMakeFiles/motorLib.dir/src/motorlib/motor_juego.cpp.o: src/motorlib/motor_juego
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \
   /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/bit \
   /usr/include/c++/13/bits/alloc_traits.h \
   /usr/include/c++/13/bits/allocated_ptr.h \
   /usr/include/c++/13/bits/allocator.h \
@@ -1164,6 +1290,7 @@ CMakeFiles/motorLib.dir/src/motorlib/motor_juego.cpp.o: src/motorlib/motor_juego
   /usr/include/c++/13/bits/locale_facets.h \
   /usr/include/c++/13/bits/locale_facets.tcc \
   /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/memory_resource.h \
   /usr/include/c++/13/bits/memoryfwd.h \
   /usr/include/c++/13/bits/move.h \
   /usr/include/c++/13/bits/nested_exception.h \
@@ -1177,6 +1304,7 @@ CMakeFiles/motorLib.dir/src/motorlib/motor_juego.cpp.o: src/motorlib/motor_juego
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/specfun.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/std_thread.h \
   /usr/include/c++/13/bits/stl_algobase.h \
@@ -1192,10 +1320,12 @@ CMakeFiles/motorLib.dir/src/motorlib/motor_juego.cpp.o: src/motorlib/motor_juego
   /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
+  /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
   /usr/include/c++/13/bits/this_thread_sleep.h \
   /usr/include/c++/13/bits/unique_ptr.h \
   /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
   /usr/include/c++/13/cctype \
@@ -1203,6 +1333,7 @@ CMakeFiles/motorLib.dir/src/motorlib/motor_juego.cpp.o: src/motorlib/motor_juego
   /usr/include/c++/13/chrono \
   /usr/include/c++/13/clocale \
   /usr/include/c++/13/cmath \
+  /usr/include/c++/13/cstddef \
   /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
@@ -1229,13 +1360,27 @@ CMakeFiles/motorLib.dir/src/motorlib/motor_juego.cpp.o: src/motorlib/motor_juego
   /usr/include/c++/13/math.h \
   /usr/include/c++/13/new \
   /usr/include/c++/13/ostream \
+  /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/ratio \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
   /usr/include/c++/13/system_error \
   /usr/include/c++/13/thread \
+  /usr/include/c++/13/tr1/bessel_function.tcc \
+  /usr/include/c++/13/tr1/beta_function.tcc \
+  /usr/include/c++/13/tr1/ell_integral.tcc \
+  /usr/include/c++/13/tr1/exp_integral.tcc \
+  /usr/include/c++/13/tr1/gamma.tcc \
+  /usr/include/c++/13/tr1/hypergeometric.tcc \
+  /usr/include/c++/13/tr1/legendre_function.tcc \
+  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/13/tr1/poly_hermite.tcc \
+  /usr/include/c++/13/tr1/poly_laguerre.tcc \
+  /usr/include/c++/13/tr1/riemann_zeta.tcc \
+  /usr/include/c++/13/tr1/special_function_util.h \
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
@@ -1291,13 +1436,22 @@ CMakeFiles/motorLib.dir/src/motorlib/motor_juego.cpp.o: src/motorlib/motor_juego
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -1332,10 +1486,14 @@ CMakeFiles/motorLib.dir/src/motorlib/motor_juego.cpp.o: src/motorlib/motor_juego
   /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
   /usr/include/x86_64-linux-gnu/bits/typesizes.h \
   /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
@@ -1364,6 +1522,7 @@ CMakeFiles/motorLib.dir/src/motorlib/util.cpp.o: src/motorlib/util.cpp \
   /usr/include/alloca.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/endian.h \
   /usr/include/features-time64.h \
   /usr/include/features.h \
@@ -1379,9 +1538,13 @@ CMakeFiles/motorLib.dir/src/motorlib/util.cpp.o: src/motorlib/util.cpp \
   /usr/include/x86_64-linux-gnu/bits/long-double.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -1415,6 +1578,10 @@ CMakeFiles/motorLib.dir/src/motorlib/util.cpp.o: src/motorlib/util.cpp \
 
 
 /usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd-decl.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
@@ -1450,8 +1617,6 @@ include/motorlib.hpp:
 
 /usr/include/c++/13/cstring:
 
-/usr/include/c++/13/bits/stl_list.h:
-
 /usr/include/c++/13/bits/sstream.tcc:
 
 /usr/include/c++/13/bits/locale_facets_nonio.tcc:
@@ -1463,8 +1628,6 @@ include/motorlib.hpp:
 /usr/include/c++/13/bits/fstream.tcc:
 
 /usr/include/c++/13/bits/codecvt.h:
-
-/usr/include/c++/13/bits/allocated_ptr.h:
 
 include/motorlib/monitor.hpp:
 
@@ -1480,25 +1643,61 @@ include/modelos_belkan.hpp:
 
 include/modelos/retrato.hpp:
 
-/usr/include/c++/13/system_error:
+include/modelos/perro/cabeza.hpp:
 
-/usr/include/c++/13/bits/range_access.h:
+include/modelos/jugador/quesito.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+include/modelos/colaborador/torsoColaborador.hpp:
 
-include/modelos/aldeano/pierna.hpp:
+include/modelos/colaborador/brazo.hpp:
 
-/usr/include/linux/limits.h:
-
-/usr/include/c++/13/ratio:
-
-/usr/include/c++/13/cwctype:
+include/modelos/arbol/arbol.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h:
 
 include/modelos/aldeano/torso.hpp:
 
+include/modelos/aldeano/pierna.hpp:
+
+include/modelos/aldeano/cintura.hpp:
+
+include/modelos/aldeano/cabeza.hpp:
+
+include/modelos/aldeano/aldeano.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
+
+include/motorlib/mapa.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
+
+include/modelos/item/item.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
+
+/usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
+
 /usr/include/c++/13/istream:
+
+/usr/include/c++/13/bits/stl_list.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2-decl.h:
 
 /usr/include/GL/glut.h:
 
@@ -1512,6 +1711,8 @@ include/modelos/aldeano/torso.hpp:
 
 /usr/include/c++/13/cctype:
 
+/usr/include/c++/13/tr1/gamma.tcc:
+
 /usr/include/c++/13/ctime:
 
 /usr/include/c++/13/cstdio:
@@ -1522,9 +1723,7 @@ include/modelos/aldeano/torso.hpp:
 
 /usr/include/c++/13/ostream:
 
-/usr/include/c++/13/cmath:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/error_constants.h:
+/usr/include/c++/13/tr1/riemann_zeta.tcc:
 
 /usr/include/c++/13/clocale:
 
@@ -1534,15 +1733,19 @@ include/modelos/aldeano/torso.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-least.h:
 
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
 /usr/include/c++/13/cstdint:
 
 /usr/include/c++/13/cstdlib:
 
 /usr/include/c++/13/bits/vector.tcc:
 
-/usr/include/c++/13/stdlib.h:
-
 /usr/include/c++/13/bits/stl_function.h:
+
+/usr/include/c++/13/bits/uses_allocator_args.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/c++/13/exception:
 
@@ -1564,8 +1767,6 @@ include/modelos/aldeano/torso.hpp:
 
 /usr/include/wchar.h:
 
-/usr/include/c++/13/bits/streambuf.tcc:
-
 /usr/include/KHR/khrplatform.h:
 
 /usr/include/c++/13/bits/stl_construct.h:
@@ -1582,7 +1783,11 @@ include/modelos/aldeano/torso.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
 
-/usr/include/c++/13/stdexcept:
+/usr/include/c++/13/system_error:
+
+/usr/include/c++/13/bits/string_view.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/c++/13/bits/predefined_ops.h:
 
@@ -1598,19 +1803,17 @@ include/modelos/aldeano/torso.hpp:
 
 /usr/include/c++/13/bits/parse_numbers.h:
 
-/usr/include/c++/13/streambuf:
-
-/usr/include/c++/13/bits/exception.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
 /usr/include/c++/13/bits/ostream_insert.h:
 
 /usr/include/c++/13/math.h:
 
 /usr/include/c++/13/bits/ostream.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
+/usr/include/c++/13/cwctype:
+
+/usr/include/linux/limits.h:
+
+/usr/include/c++/13/ratio:
 
 include/modelos/colaborador/colaborador.hpp:
 
@@ -1618,11 +1821,7 @@ include/modelos/colaborador/colaborador.hpp:
 
 /usr/include/c++/13/bits/memoryfwd.h:
 
-/usr/include/c++/13/bits/ptr_traits.h:
-
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++locale.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h:
 
 include/obj3dlib/cubo3d.h:
 
@@ -1636,21 +1835,25 @@ include/obj3dlib/objeto3d.h:
 
 /usr/include/c++/13/bits/basic_ios.tcc:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h:
+/usr/include/c++/13/bits/ptr_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2-decl.h:
 
 /usr/include/GL/glext.h:
+
+/usr/include/c++/13/cstddef:
 
 /usr/include/c++/13/bits/cpp_type_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
-/usr/include/c++/13/initializer_list:
-
-/usr/include/c++/13/bits/std_thread.h:
-
 include/obj3dlib/file_ply_stl.h:
 
-include/modelos/jugador/quesito.hpp:
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
+
+include/obj3dlib/octaedro3d.h:
 
 /usr/include/c++/13/bits/alloc_traits.h:
 
@@ -1660,6 +1863,10 @@ include/modelos/jugador/quesito.hpp:
 
 Comportamientos_Jugador/excursionista.hpp:
 
+/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
+
+/usr/include/c++/13/bits/char_traits.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /usr/include/c++/13/bits/functexcept.h:
@@ -1668,13 +1875,11 @@ Comportamientos_Jugador/excursionista.hpp:
 
 include/obj3dlib/dodecaedro3d.h:
 
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
 src/motorlib/entidad.cpp:
 
 include/obj3dlib.hpp:
 
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdint.h:
+/usr/include/c++/13/tr1/beta_function.tcc:
 
 Comportamientos_Jugador/auxiliar.hpp:
 
@@ -1682,15 +1887,15 @@ Comportamientos_Jugador/auxiliar.hpp:
 
 /usr/include/c++/13/bits/basic_string.tcc:
 
+/usr/include/c++/13/bits/allocated_ptr.h:
+
+/usr/include/c++/13/bit:
+
 include/obj3dlib/tetraedro3d.h:
 
 /usr/include/c++/13/bits/stl_vector.h:
 
 include/obj3dlib/luz.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
-
-/usr/include/c++/13/string:
 
 Comportamientos_Jugador/rescatador.hpp:
 
@@ -1730,6 +1935,8 @@ include/motorlib/entidad.hpp:
 
 /usr/include/c++/13/debug/assertions.h:
 
+/usr/include/x86_64-linux-gnu/bits/select-decl.h:
+
 include/obj3dlib/cono3dwire.h:
 
 /usr/include/c++/13/iomanip:
@@ -1744,15 +1951,17 @@ include/obj3dlib/cono3dwire.h:
 
 /usr/include/c++/13/backward/binders.h:
 
+/usr/include/c++/13/bits/streambuf.tcc:
+
+/usr/include/c++/13/bits/specfun.h:
+
 /usr/include/c++/13/bits/basic_string.h:
+
+/usr/include/c++/13/tr1/poly_laguerre.tcc:
 
 /usr/include/c++/13/bits/invoke.h:
 
 include/comportamientos/comportamiento.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-include/obj3dlib/toro3d.h:
 
 /usr/include/c++/13/bits/locale_facets.h:
 
@@ -1768,13 +1977,23 @@ include/obj3dlib/toro3d.h:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
-include/obj3dlib/objrevolucion3d.h:
-
 /usr/include/c++/13/bits/cxxabi_init_exception.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/c++io.h:
 
 /usr/include/c++/13/typeinfo:
+
+/usr/include/c++/13/bits/exception.h:
+
+/usr/include/c++/13/bits/memory_resource.h:
+
+/usr/include/c++/13/streambuf:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+include/obj3dlib/toro3d.h:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/c++/13/bits/functional_hash.h:
 
@@ -1792,9 +2011,57 @@ include/modelos/perro/perro.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
+/usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/c++/13/cwchar:
+
+include/motorlib/util.h:
+
 /usr/include/c++/13/bits/locale_classes.tcc:
 
+/usr/include/c++/13/pstl/pstl_config.h:
+
+/usr/include/c++/13/stdexcept:
+
+/usr/include/c++/13/stdlib.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
+
+/usr/include/c++/13/string:
+
+/usr/include/features-time64.h:
+
 /usr/include/c++/13/thread:
+
+/usr/include/c++/13/initializer_list:
+
+/usr/include/c++/13/bits/std_thread.h:
+
+/usr/include/c++/13/tr1/bessel_function.tcc:
+
+/usr/include/c++/13/tr1/ell_integral.tcc:
+
+/usr/include/c++/13/tr1/exp_integral.tcc:
+
+/usr/include/c++/13/bits/range_access.h:
+
+/usr/include/c++/13/tr1/hypergeometric.tcc:
+
+/usr/include/c++/13/type_traits:
+
+/usr/include/c++/13/tr1/legendre_function.tcc:
+
+/usr/include/c++/13/tr1/modified_bessel_func.tcc:
+
+/usr/include/c++/13/bits/exception_defines.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/c++/13/tr1/poly_hermite.tcc:
+
+/usr/include/c++/13/tr1/special_function_util.h:
+
+/usr/include/stdc-predef.h:
 
 /usr/include/c++/13/bits/list.tcc:
 
@@ -1802,21 +2069,9 @@ include/modelos/perro/perro.hpp:
 
 /usr/include/c++/13/tuple:
 
-/usr/include/x86_64-linux-gnu/bits/environments.h:
-
-include/obj3dlib/octaedro3d.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h:
-
-/usr/include/c++/13/type_traits:
-
-/usr/include/x86_64-linux-gnu/sys/single_threaded.h:
-
 /usr/include/c++/13/vector:
 
 /usr/include/ctype.h:
-
-/usr/include/features-time64.h:
 
 src/motorlib/util.cpp:
 
@@ -1838,8 +2093,6 @@ src/motorlib/util.cpp:
 
 /usr/include/sched.h:
 
-/usr/include/stdc-predef.h:
-
 /usr/include/endian.h:
 
 /usr/include/stdint.h:
@@ -1854,7 +2107,13 @@ src/motorlib/motor_grafico.cpp:
 
 /usr/include/string.h:
 
-include/modelos/aldeano/cintura.hpp:
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+include/modelos/aldeano/brazo.hpp:
+
+/usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/c++/13/ext/numeric_traits.h:
 
@@ -1871,8 +2130,6 @@ include/modelos/perro/lomo.hpp:
 include/obj3dlib/esfera3d.h:
 
 /usr/include/x86_64-linux-gnu/bits/endian.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/include/c++/13/bits/requires_hosted.h:
 
@@ -1892,7 +2149,7 @@ include/obj3dlib/esfera3d.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+/usr/include/c++/13/string_view:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
@@ -1905,6 +2162,10 @@ include/obj3dlib/esfera3d.h:
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
+
+/usr/include/c++/13/cmath:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
 
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
@@ -1920,13 +2181,15 @@ include/obj3dlib/esfera3d.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
-/usr/include/c++/13/cwchar:
+/usr/include/c++/13/bits/quoted_string.h:
 
-include/motorlib/util.h:
-
-/usr/include/x86_64-linux-gnu/sys/select.h:
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+include/obj3dlib/objrevolucion3d.h:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
@@ -1938,7 +2201,11 @@ include/motorlib/util.h:
 
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
-/usr/include/x86_64-linux-gnu/c++/13/bits/cpu_defines.h:
+include/modelos/jugador/jugador3d.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /usr/include/math.h:
 
@@ -1953,6 +2220,8 @@ include/motorlib/util.h:
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
@@ -1974,56 +2243,18 @@ include/motorlib/util.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
+src/motorlib/mapa.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
-/usr/include/c++/13/bits/exception_defines.h:
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
-
-include/modelos/item/item.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
-
-/usr/include/c++/13/bits/char_traits.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/ctype_inline.h:
-
-/usr/include/x86_64-linux-gnu/sys/cdefs.h:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
-include/motorlib/mapa.hpp:
-
-/usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-src/motorlib/mapa.cpp:
-
-include/modelos/aldeano/aldeano.hpp:
-
-/usr/include/x86_64-linux-gnu/asm/errno.h:
-
-include/modelos/aldeano/brazo.hpp:
-
-include/modelos/colaborador/torsoColaborador.hpp:
-
-include/modelos/aldeano/cabeza.hpp:
-
-include/modelos/arbol/arbol.hpp:
-
-include/modelos/colaborador/brazo.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-include/modelos/jugador/jugador3d.hpp:
-
-include/modelos/perro/cabeza.hpp:

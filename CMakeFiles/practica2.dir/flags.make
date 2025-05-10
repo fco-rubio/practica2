@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/fco-rubio/Uni/2/IA/practica2/include
 
-CXX_FLAGS =  -L/usr/lib/x86_64-linux-gnu -lglut -fopenmp -pthread -std=c++11
+CXX_FLAGS =  -L/usr/lib/x86_64-linux-gnu -lglut -fopenmp -pthread -std=c++17 -O2 -march=native
 

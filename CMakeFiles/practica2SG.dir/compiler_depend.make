@@ -59,6 +59,7 @@ CMakeFiles/practica2SG.dir/bin_src/juegoSG.cc.o: bin_src/juegoSG.cc \
   /usr/include/asm-generic/errno.h \
   /usr/include/assert.h \
   /usr/include/c++/13/backward/binders.h \
+  /usr/include/c++/13/bit \
   /usr/include/c++/13/bits/alloc_traits.h \
   /usr/include/c++/13/bits/allocated_ptr.h \
   /usr/include/c++/13/bits/allocator.h \
@@ -90,6 +91,7 @@ CMakeFiles/practica2SG.dir/bin_src/juegoSG.cc.o: bin_src/juegoSG.cc \
   /usr/include/c++/13/bits/locale_facets.h \
   /usr/include/c++/13/bits/locale_facets.tcc \
   /usr/include/c++/13/bits/localefwd.h \
+  /usr/include/c++/13/bits/memory_resource.h \
   /usr/include/c++/13/bits/memoryfwd.h \
   /usr/include/c++/13/bits/move.h \
   /usr/include/c++/13/bits/nested_exception.h \
@@ -103,6 +105,7 @@ CMakeFiles/practica2SG.dir/bin_src/juegoSG.cc.o: bin_src/juegoSG.cc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
+  /usr/include/c++/13/bits/specfun.h \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/std_thread.h \
   /usr/include/c++/13/bits/stl_algobase.h \
@@ -118,10 +121,12 @@ CMakeFiles/practica2SG.dir/bin_src/juegoSG.cc.o: bin_src/juegoSG.cc \
   /usr/include/c++/13/bits/stl_vector.h \
   /usr/include/c++/13/bits/streambuf.tcc \
   /usr/include/c++/13/bits/streambuf_iterator.h \
+  /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
   /usr/include/c++/13/bits/this_thread_sleep.h \
   /usr/include/c++/13/bits/unique_ptr.h \
   /usr/include/c++/13/bits/uses_allocator.h \
+  /usr/include/c++/13/bits/uses_allocator_args.h \
   /usr/include/c++/13/bits/utility.h \
   /usr/include/c++/13/bits/vector.tcc \
   /usr/include/c++/13/cctype \
@@ -129,6 +134,7 @@ CMakeFiles/practica2SG.dir/bin_src/juegoSG.cc.o: bin_src/juegoSG.cc \
   /usr/include/c++/13/chrono \
   /usr/include/c++/13/clocale \
   /usr/include/c++/13/cmath \
+  /usr/include/c++/13/cstddef \
   /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
@@ -156,13 +162,27 @@ CMakeFiles/practica2SG.dir/bin_src/juegoSG.cc.o: bin_src/juegoSG.cc \
   /usr/include/c++/13/math.h \
   /usr/include/c++/13/new \
   /usr/include/c++/13/ostream \
+  /usr/include/c++/13/pstl/pstl_config.h \
   /usr/include/c++/13/ratio \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/stdlib.h \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
+  /usr/include/c++/13/string_view \
   /usr/include/c++/13/system_error \
   /usr/include/c++/13/thread \
+  /usr/include/c++/13/tr1/bessel_function.tcc \
+  /usr/include/c++/13/tr1/beta_function.tcc \
+  /usr/include/c++/13/tr1/ell_integral.tcc \
+  /usr/include/c++/13/tr1/exp_integral.tcc \
+  /usr/include/c++/13/tr1/gamma.tcc \
+  /usr/include/c++/13/tr1/hypergeometric.tcc \
+  /usr/include/c++/13/tr1/legendre_function.tcc \
+  /usr/include/c++/13/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/13/tr1/poly_hermite.tcc \
+  /usr/include/c++/13/tr1/poly_laguerre.tcc \
+  /usr/include/c++/13/tr1/riemann_zeta.tcc \
+  /usr/include/c++/13/tr1/special_function_util.h \
   /usr/include/c++/13/tuple \
   /usr/include/c++/13/type_traits \
   /usr/include/c++/13/typeinfo \
@@ -211,13 +231,22 @@ CMakeFiles/practica2SG.dir/bin_src/juegoSG.cc.o: bin_src/juegoSG.cc \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select-decl.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/setjmp.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-least.h \
   /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
@@ -255,6 +284,8 @@ CMakeFiles/practica2SG.dir/bin_src/juegoSG.cc.o: bin_src/juegoSG.cc \
   /usr/include/x86_64-linux-gnu/bits/waitflags.h \
   /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
   /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2-decl.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/bits/wordsize.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
@@ -309,39 +340,67 @@ CMakeFiles/practica2SG.dir/bin_src/juegoSG.cc.o: bin_src/juegoSG.cc \
 
 /usr/include/x86_64-linux-gnu/c++/13/bits/basic_file.h:
 
-/usr/include/c++/13/clocale:
+/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
 
-/usr/include/c++/13/bits/allocated_ptr.h:
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
-/usr/include/c++/13/chrono:
+/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
 
-/usr/include/c++/13/cctype:
+/usr/include/x86_64-linux-gnu/bits/wchar.h:
 
-/usr/include/c++/13/bits/vector.tcc:
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+
+/usr/include/x86_64-linux-gnu/bits/typesizes.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/usr/include/c++/13/bits/uses_allocator_args.h:
+
+/usr/include/x86_64-linux-gnu/bits/long-double.h:
 
 /usr/include/c++/13/bits/uses_allocator.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/c++/13/bits/unique_ptr.h:
 
 /usr/include/c++/13/bits/this_thread_sleep.h:
 
 /usr/include/wchar.h:
 
-/usr/include/c++/13/bits/streambuf.tcc:
-
-/usr/include/c++/13/cerrno:
-
-/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
-
-/usr/include/c++/13/bits/unique_ptr.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+/usr/include/x86_64-linux-gnu/bits/wchar2-decl.h:
 
 /usr/include/c++/13/bits/stl_list.h:
 
 /usr/include/c++/13/debug/assertions.h:
+
+/usr/include/x86_64-linux-gnu/bits/select-decl.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
+
+/usr/include/asm-generic/errno.h:
 
 /usr/include/c++/13/bits/stl_construct.h:
 
@@ -350,8 +409,6 @@ CMakeFiles/practica2SG.dir/bin_src/juegoSG.cc.o: bin_src/juegoSG.cc \
 include/modelos/aldeano/pierna.hpp:
 
 /usr/include/c++/13/system_error:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
 
 /usr/include/c++/13/bits/predefined_ops.h:
 
@@ -367,11 +424,11 @@ include/modelos/aldeano/pierna.hpp:
 
 /usr/include/c++/13/bits/ostream.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/long-double.h:
-
 /usr/include/c++/13/bits/stl_function.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/c++/13/clocale:
 
 /usr/include/c++/13/bits/invoke.h:
 
@@ -383,8 +440,6 @@ include/comportamientos/comportamiento.hpp:
 
 /usr/include/c++/13/bits/refwrap.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
-
 /usr/include/c++/13/bits/fstream.tcc:
 
 /usr/include/c++/13/bits/exception_ptr.h:
@@ -393,11 +448,17 @@ include/comportamientos/comportamiento.hpp:
 
 include/obj3dlib/cono3d.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
+
+/usr/include/c++/13/bits/charconv.h:
+
 /usr/include/c++/13/cstdio:
 
 /usr/include/c++/13/fstream:
 
 /usr/include/c++/13/bits/exception.h:
+
+/usr/include/c++/13/bits/memory_resource.h:
 
 /usr/include/c++/13/streambuf:
 
@@ -415,11 +476,11 @@ include/motorlib/monitor.hpp:
 
 /usr/include/c++/13/bits/concept_check.h:
 
+/usr/include/c++/13/bits/alloc_traits.h:
+
 /usr/include/x86_64-linux-gnu/c++/13/bits/ctype_base.h:
 
 include/modelos/item/item.hpp:
-
-/usr/include/c++/13/bits/alloc_traits.h:
 
 /usr/include/KHR/khrplatform.h:
 
@@ -441,7 +502,13 @@ include/motorlib/mapa.hpp:
 
 include/modelos/perro/cabeza.hpp:
 
+/usr/include/c++/13/bits/streambuf.tcc:
+
+/usr/include/c++/13/bits/specfun.h:
+
 /usr/include/c++/13/bits/basic_string.h:
+
+/usr/include/c++/13/tr1/poly_laguerre.tcc:
 
 include/motorlib.hpp:
 
@@ -455,8 +522,6 @@ include/modelos/jugador/quesito.hpp:
 
 Comportamientos_Jugador/excursionista.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
-
 /usr/include/c++/13/bits/ios_base.h:
 
 /usr/include/c++/13/bits/move.h:
@@ -467,6 +532,10 @@ include/modelos/colaborador/colaborador.hpp:
 
 include/modelos/colaborador/brazo.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/c++/13/bits/string_view.tcc:
+
 include/glui/glui.h:
 
 /usr/include/c++/13/bits/postypes.h:
@@ -476,8 +545,6 @@ include/obj3dlib/jpeg_reader/jpg_imagen.hpp:
 include/comportamientolib.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
-
-/usr/include/c++/13/bits/ptr_traits.h:
 
 include/obj3dlib/cubo3d.h:
 
@@ -491,17 +558,19 @@ include/modelos/arbol/arbol.hpp:
 
 include/modelos/aldeano/torso.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/c++/13/limits:
+
 Comportamientos_Jugador/vandalo.hpp:
 
 /usr/include/c++/13/bits/memoryfwd.h:
 
-/usr/include/c++/13/bits/range_access.h:
-
-bin_src/juegoSG.cc:
-
 /usr/include/c++/13/bits/functexcept.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/c++/13/tr1/beta_function.tcc:
 
 Comportamientos_Jugador/auxiliar.hpp:
 
@@ -515,11 +584,15 @@ include/obj3dlib/objeto3d.h:
 
 /usr/include/c++/13/ostream:
 
+/usr/include/c++/13/tr1/riemann_zeta.tcc:
+
 /usr/include/c++/13/bits/cpp_type_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/types.h:
 
 /usr/include/GL/glext.h:
+
+/usr/include/c++/13/cstddef:
 
 include/modelos/colaborador/torsoColaborador.hpp:
 
@@ -543,6 +616,8 @@ include/modelos/aldeano/cintura.hpp:
 
 /usr/include/string.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
 include/modelos_belkan.hpp:
 
 include/obj3dlib/cono3dwire.h:
@@ -559,8 +634,6 @@ include/obj3dlib/dodecaedro3d.h:
 
 /usr/include/GL/glu.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
-
 /usr/include/c++/13/bits/new_allocator.h:
 
 /usr/include/c++/13/bits/stl_uninitialized.h:
@@ -575,13 +648,19 @@ include/obj3dlib/icosaedro3d.h:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
-include/obj3dlib/objrevolucion3d.h:
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+/usr/include/c++/13/bits/exception_defines.h:
 
 /usr/include/c++/13/bits/stl_vector.h:
 
 include/obj3dlib/luz.hpp:
 
 include/obj3dlib/tetraedro3d.h:
+
+/usr/include/c++/13/bits/ptr_traits.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2-decl.h:
 
 /usr/include/GL/freeglut_std.h:
 
@@ -591,11 +670,11 @@ include/obj3dlib/tetraedro3d.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
-/usr/include/c++/13/limits:
-
-/usr/include/x86_64-linux-gnu/bits/types/wint_t.h:
-
 /usr/include/c++/13/bits/basic_string.tcc:
+
+/usr/include/c++/13/bits/allocated_ptr.h:
+
+/usr/include/c++/13/bit:
 
 include/modelos/aldeano/cabeza.hpp:
 
@@ -614,6 +693,26 @@ include/modelos/perro/perro.hpp:
 /usr/include/c++/13/bits/stringfwd.h:
 
 /usr/include/c++/13/backward/binders.h:
+
+/usr/include/c++/13/bits/vector.tcc:
+
+/usr/include/c++/13/cctype:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/c++/13/ext/atomicity.h:
+
+/usr/include/c++/13/tr1/gamma.tcc:
+
+/usr/include/c++/13/cerrno:
+
+/usr/include/x86_64-linux-gnu/bits/stdint-least.h:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
+/usr/include/c++/13/chrono:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
 
 /usr/include/c++/13/cmath:
 
@@ -651,15 +750,15 @@ include/motorlib/util.h:
 
 /usr/include/c++/13/new:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/c++/13/bits/stl_iterator.h:
+
+/usr/include/c++/13/ext/numeric_traits.h:
 
 /usr/include/c++/13/ext/string_conversions.h:
 
 /usr/include/c++/13/ext/type_traits.h:
-
-/usr/include/c++/13/bits/std_thread.h:
-
-/usr/include/c++/13/initializer_list:
 
 /usr/include/c++/13/ios:
 
@@ -681,13 +780,45 @@ include/motorlib/util.h:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
+/usr/include/c++/13/pstl/pstl_config.h:
+
 /usr/include/c++/13/stdexcept:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
 /usr/include/c++/13/string:
 
+/usr/include/features-time64.h:
+
 /usr/include/c++/13/thread:
+
+/usr/include/c++/13/bits/std_thread.h:
+
+/usr/include/c++/13/initializer_list:
+
+/usr/include/c++/13/tr1/bessel_function.tcc:
+
+/usr/include/c++/13/tr1/ell_integral.tcc:
+
+/usr/include/c++/13/tr1/exp_integral.tcc:
+
+/usr/include/c++/13/bits/range_access.h:
+
+bin_src/juegoSG.cc:
+
+/usr/include/c++/13/tr1/hypergeometric.tcc:
+
+/usr/include/c++/13/type_traits:
+
+/usr/include/c++/13/tr1/legendre_function.tcc:
+
+/usr/include/c++/13/tr1/modified_bessel_func.tcc:
+
+/usr/include/c++/13/tr1/poly_hermite.tcc:
+
+/usr/include/c++/13/tr1/special_function_util.h:
+
+/usr/include/stdc-predef.h:
 
 /usr/include/c++/13/bits/list.tcc:
 
@@ -695,13 +826,9 @@ include/motorlib/util.h:
 
 /usr/include/c++/13/tuple:
 
-/usr/include/c++/13/type_traits:
-
 /usr/include/c++/13/vector:
 
 /usr/include/ctype.h:
-
-/usr/include/features-time64.h:
 
 /usr/include/features.h:
 
@@ -714,8 +841,6 @@ include/motorlib/util.h:
 /usr/include/wctype.h:
 
 /usr/include/sched.h:
-
-/usr/include/stdc-predef.h:
 
 /usr/include/endian.h:
 
@@ -731,11 +856,7 @@ include/modelos/aldeano/brazo.hpp:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
 
-/usr/include/c++/13/bits/stl_iterator.h:
-
-/usr/include/c++/13/ext/numeric_traits.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
@@ -749,19 +870,19 @@ include/obj3dlib/esfera3d.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
-
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
+
 /usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/c++/13/string_view:
 
 /usr/include/x86_64-linux-gnu/bits/iscanonical.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
@@ -779,7 +900,19 @@ include/obj3dlib/esfera3d.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
+include/obj3dlib/objrevolucion3d.h:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
@@ -796,43 +929,3 @@ include/modelos/jugador/jugador3d.hpp:
 /usr/include/math.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/c++/13/bits/charconv.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/include/c++/13/ext/atomicity.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/time_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
-
-/usr/include/x86_64-linux-gnu/bits/typesizes.h:
-
-/usr/include/c++/13/bits/exception_defines.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
-
-/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h:
